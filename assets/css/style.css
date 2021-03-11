@@ -1,280 +1,309 @@
-body{
-    font-family: arial black;
-    color: rgb(255, 255, 255);
+body {
+  font-family: arial black;
+  color: rgb(255, 255, 255);
 }
 
-html{
-    background: rgba(0, 0, 0, 0.863);
+html {
+  background: rgba(0, 0, 0, 0.863);
 }
 
-div#content div{
-    display: inline-block;
-    width: auto;
-    margin: auto;
+div#content div {
+  display: inline-block;
+  width: auto;
+  margin: auto;
 }
 
-div#content div.left-box{
-    background-color: rgb(0, 0, 0);
-    margin: 30px;
-    width: 80%;
+div#content div.left-box {
+  background-color: rgb(0, 0, 0);
+  margin: 30px;
+  width: 80%;
 }
 
-div#content div.right-box{
-    color: white;
-    background-color: rgb(0, 0, 0);
-    vertical-align: top;
-    margin: 30px;
-    width: 80%;
+div#content div.right-box {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  vertical-align: top;
+  margin: 30px;
+  width: 80%;
 }
 
-div#content div.right-box:hover{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    vertical-align: top;
-    margin: 30px;
-    width: 80%;
+div#content div.right-box:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  vertical-align: top;
+  margin: 30px;
+  width: 80%;
 }
 
-div#content div h1, h2, p{
-    margin: 50px;
+div#content div h1,
+h2,
+p {
+  margin: 50px;
 }
 
-div#content{
-    background: rgb(46, 46, 46);
-    width: auto;
+div#content {
+  background: rgb(46, 46, 46);
+  width: auto;
 }
 
-div#content div.article{
-    background-color: rgb(0, 0, 0);
-    margin: 30px;
-    width: 80%;
-    text-align: right;
+div#content div.article {
+  background-color: rgb(0, 0, 0);
+  margin: 30px;
+  width: 80%;
+  text-align: right;
 }
 
-div#content div.sommaire{
-    transition: 1s all;
-    text-align: center;
-    width: 35%;
-    margin: 30px;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-size: large;
+div#content div.sommaire {
+  transition: 1s all;
+  text-align: center;
+  width: 35%;
+  margin: 30px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: large;
 }
 
-div#content div.sommaire:hover{
-    color: rgb(255, 255, 255);
-    transition: 1.5s all;
-    text-align: center;
-    width: 80%;
-    margin: 30px;
-    background-color: black;
+div#content div.sommaire:hover {
+  color: rgb(255, 255, 255);
+  transition: 1.5s all;
+  text-align: center;
+  width: 80%;
+  margin: 30px;
+  background-color: black;
 }
 
-div#content div.news h1, h2, p{
-    display: inline-block;
-    margin: 50px;
+div#content div.news h1,
+h2,
+p {
+  display: inline-block;
+  margin: 50px;
 }
 
-div#content div.left-box-right{
-    background-image:url(img/bg.png);
-    background-position:center center;
-    background-repeat:no-repeat;
-    margin: 30px;
-    width: 80%;
-    text-align: right;
-    text-decoration: none;
-    transition: 1.5s all;
+div#content div.left-box-right {
+  background-image: url(img/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 30px;
+  width: 80%;
+  text-align: right;
+  text-decoration: none;
+  transition: 1.5s all;
 }
 
-div#content div:hover{
-    transition: 1s all;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+div#content div:hover {
+  transition: 1s all;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-div#content div{
-    transition: 1s all;
-    text-decoration: none;
+div#content div {
+  transition: 1s all;
+  text-decoration: none;
 }
 
-footer{
-    color: rgb(209, 181, 22);
-    width: max-content;
-    text-align: center;
-}
-
-p.c{
-    transition: 0.5s all;
-    color: rgb(209, 181, 22);
+footer {
+  color: rgb(209, 181, 22);
+  width: max-content;
+  text-align: center;
 }
 
 a{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(209, 181, 22);
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(209, 181, 22);
 }
 
-a:hover{
-    transition: 0.3s all;
-    color: rgb(255, 207, 103);
+a:hover {
+  transition: 0.3s all;
+  color: rgb(255, 207, 103);
 }
 
-strong.s:hover{
-    transition: 0.3s all;
-    color: rgb(255, 223, 42);
+.text-yellow:hover {
+
+  color: rgb(255, 223, 42);
 }
 
-strong.s{
-    transition: 0.3s all;
-    color: rgb(209, 181, 22);
+.text-yellow{
+
+  color: rgb(209, 181, 22);
 }
 
-strong.style{
-    transition: 0.3s all;
-    color: rgb(209, 181, 22);
+.style-yellow {
+   transition: 0.3s all;
+   color: rgb(209, 181, 22);
 }
 
-strong.style-white{
+.style-white {
+   transition: 0.3s all;
+   color: rgb(255, 255, 255);
+}
+
+.style-white {
     transition: 0.3s all;
     color: rgb(0, 0, 0);
 }
 
-a.twitch{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(162 88 203);
+a.twitch {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(162 88 203);
 }
 
-a.youtube{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(255, 110, 110);
+a.youtube {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(255, 110, 110);
 }
 
-a.discord{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(130 125 220);
+a.discord {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(130 125 220);
 }
 
-a.twitch:hover{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(110 44 146);
+a.twitch:hover {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(110 44 146);
 }
 
-a.youtube:hover{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(255, 0, 0);
+a.youtube:hover {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
 }
 
-a.discord:hover{
-    transition: 0.2s all;
-    text-decoration: none;
-    color: rgb(80 70 175);
+a.discord:hover {
+  transition: 0.2s all;
+  text-decoration: none;
+  color: rgb(80 70 175);
 }
 
-div#content div.lien{
+div#content div.lien {
+  transition: 1s all;
+  text-align: center;
+  width: 40%;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+div#content div.lien:hover {
+  transition: 1.5s all;
+  text-align: center;
+  width: 80%;
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+div#content div.black-box {
+  background-color: rgba(0, 0, 0, 0.897);
+  margin: 30px;
+  width: 80%;
+}
+
+#icon {
+  width: 50px;
+  float: center;
+  position: absolute;
+}
+
+img {
+  transition: 0.3s all;
+  vertical-align: middle;
+}
+
+div#content div.article-info {
+  transition: 1s all;
+  text-align: center;
+  width: 35%;
+  margin: 30px;
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+div#content div.hub-inline {
+  display: inline-block;
+}
+
+div#content div.right-box-info {
+  background-color: rgb(0, 0, 0);
+  vertical-align: top;
+  margin: 30px;
+  width: 80%;
+}
+
+div#content div.sommaire-c {
+  transition: 0.5s all;
+  text-align: center;
+  width: 100%;
+  background-image: url(img/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+div#content div.hub {
+  transition: 0.5s all;
+  text-align: center;
+  width: 45%;
+  margin: 30px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+div#content div.hub:hover {
+  color: rgb(209, 181, 22);
+  transition: 0.5s all;
+  text-align: center;
+  width: 45%;
+  margin: 30px;
+  background-color: black;
+}
+
+div#content div.contenu-box {
+  margin: 30px;
+  width: 80%;
+  background-image: url(img/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+div.bg-site {
+  width: auto;
+  background-image: url(img/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+img.logo {
+  padding: 10px;
+}
+
+.landing {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
+
+.landing-text {
     transition: 1s all;
-    text-align: center;
-    width: 40%;
     margin: 30px;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: large;
 }
 
-div#content div.lien:hover{
-    transition: 1.5s all;
-    text-align: center;
-    width: 80%;
-    margin: 30px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-div#content div.black-box{
-    background-color: rgba(0, 0, 0, 0.897);
-    margin: 30px;
-    width: 80%;
-}
-
-#icon{
-    width: 50px;
-    float: center;
-    position:absolute;
-}
-
-img{
-    transition: 0.3s all;
-    vertical-align: middle;
-}
-
-div#content div.article-info{
-    transition: 1s all;
-    text-align: center;
-    width: 35%;
-    margin: 30px;
-    background-color: rgb(29, 29, 29);
-    color: rgb(255, 255, 255);
-    font-size: large;
-}
-
-div#content div.hub-inline{
-    display: inline-block;
-}
-
-div#content div.right-box-info{
+.divider-black{
     background-color: rgb(0, 0, 0);
-    vertical-align: top;
-    margin: 30px;
-    width: 80%;
-}
-
-div#content div.sommaire-c{
-    transition: 0.5s all;
-    text-align: center;
-    width: 100%;
-    background-image:url(img/bg.png);
-    background-position:center center;
-    background-repeat:no-repeat;
-    color: rgb(255, 255, 255);
     font-size: large;
-}
-
-div#content div.hub{
-    transition: 0.5s all;
-    text-align: center;
-    width: 45%;
-    margin: 30px;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-size: large;
-}
-
-div#content div.hub:hover{
-    color: rgb(209, 181, 22);
-    transition: 0.5s all;
-    text-align: center;
-    width: 45%;
-    margin: 30px;
-    background-color: black;
-}
-
-div#content div.contenu-box{
-    margin: 30px;
-    width: 80%;
-    background-image:url(img/bg.png);
-    background-position:center center;
-    background-repeat:no-repeat;
-    color: rgb(255, 255, 255);
-    font-size: large;
-}
-
-div.bg-site{
-    width: auto;
-    background-image:url(img/bg.png);
-    background-position:center center;
-    background-repeat:no-repeat;
+    min-height: 100px;
 }

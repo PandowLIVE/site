@@ -1,135 +1,158 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Accueil</title>
-        <meta charset="utf-8">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="icon" type="image/png" href="assets/img/logo.jpg"/>
-    </head>
+  <head>
+    <title>Accueil</title>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/img/logo.jpg" />
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-$gray-900">
-            <div class="container-fluid">
-              <a class="navbar-brand color-white-nav" href="#">| Pandow</a>
-              <button class="navbar-toggler color-white-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-$gray-900">
+        <div class="container-fluid">
+          <li>
+            <a href="../index.html"><img src="assets/img/logo.jpg" alt="logo" width="70px" class="logo" /></a>
+          </li>
+          <a class="navbar-brand color-white-nav" href="#">| Pandow</a>
+          <button class="navbar-toggler color-white-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catalogue</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li>
+                    <a class="dropdown-item" href="assets/error.html">| Articles</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Catalogue
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                      <li><a class="dropdown-item" href="assets/error.html">| Articles</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="assets/live.html">| Rediffusion</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="assets/clip.html">| Clips</a></li>
-                    </ul>
+                  <li>
+                    <hr class="dropdown-divider" />
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Liens
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                      <li><a class="dropdown-item" href="assets/planning.html">| Calendrier</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="assets/materiel.html">| Materiel</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="assets/about.html">| Liens</a></li>
-                    </ul>
+                  <li>
+                    <a class="dropdown-item" href="assets/live.html">| Rediffusion</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/clip.html">| Clips</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2 " type="search" placeholder="Rechercher" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit">🔍</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Liens </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li>
+                    <a class="dropdown-item" href="assets/planning.html">| Calendrier</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/materiel.html">| Materiel</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/about.html">| Liens</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">🔍</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-    <body>
-        <div id="content">
-            <div class="sommaire">
-                <h2>
-                | Bienvenue sur mon site, <strong class="style">Pandow</strong>.fr
-                </h2>
-            </div>
-            <div class="left-box" class="1" width="100%" >
-                <h1>
-                    | Présentation
-                </h1>
-                <p>
-                    Salut ! Moi c'est <strong class="style">Pandow</strong>, je suis streamer sur la platforme twitch depuis 2018.
-                    Je suis principalement un streamer de jeux-vidéos, mais aussi de développement web. je fais des lives chills, même si j'ai un caractère de rageux ...
-                    <br>
-                    <br>
-                    Sur ce site tu retrouveras notament, mon <strong class="style"><a href="assets/planning.html">planning</a></strong>, les différents <strong class="style"><a href="assets/clip.html">clips</a></strong> réalisé par ma communauté,
-                    ainsi que la rediffusion de mes différents <strong class="style"><a href="assets/live.html">lives</a></strong>.
-                    C'est aussi sur ce site que je poste différents articles à propos de moi, de mes lives ou de mon <strong class="style"><a href="assets/setup.html">materiel</a></strong>
-
-                </p>
-            </div>
-            <hr class="dropdown-divider">
-            <div class="left-box" class="1" width="100%" >
-                <h1>
-                    | Information
-                </h1>
-                <p>
-                    Mes objectifs principaux sont : 
-                    <br>
-                    <br>
-                    - Débuter le <strong class="s">Java Script</strong> <br>
-                    - Débuter le <strong class="s">PhP</strong> <br>
-                    - Créer un menu de navigation complexe et organisé<br>
-                    - Structurer une page en <strong class="s">HTML & CSS</strong> <br>
-                    <br>
-                    <br>
-                    Mes compétences actuelles :
-                    <br>
-                    <br>
-                    - Construire une identité graphique pour un site <br>
-                    - Construire les base d'un site en <strong class="s">HTML</strong> <br>
-                    - Styliser une page à l'aide de <strong class="s">CSS</strong> <br>
-                </p>
-            </div>
-            <hr class="dropdown-divider">
-            <div class="left-box" class="1" width="100%" >
-                <h1>
-                    | À propos
-                </h1>
-                <p>
-                    Si vous souhaitez me retrouver sur l'internet connécté, voici quelques petits liens.
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a class="twitch" href="https://twitch.tv/lecyber_panda/" target="BLANK_"><img src="assets/img/twitch.png" width="30px"> | Twitch</a>
-                    <br>
-                    <br>
-                    <br>
-                    <a class="discord" href="https://discord.com/invite/U5aepNgnp7" target="BLANK_"><img src="assets/img/discord.png" width="30px"> | Discord</a>
-                    <br>
-                    <br>
-                    <br>
-                    <a class="youtube" href="https://www.youtube.com/channel/UCyCFpiB6a89KJULuzqfyLjA" target="BLANK_"><img src="assets/img/youtube.png" width="30px"> | Youtube</a>
-                </p>
-            </div>
-            <hr class="dropdown-divider">
-            </div>
+    <div id="content">
+      <div class="landing">
+        <div class="landing-text">
+          <h2>| Bienvenue sur mon site, <strong class="style">Pandow</strong>.fr</h2>
         </div>
-    </body>
-    <footer>
-        <div>
-            <p class="c">Copyright <strong class="style-white">Pandow ©</strong> 2020 - 2021</p>
-            <p class="c">|</p>
-            <p class="c"><a class="c" href="assets/other.html" target="BLANK_"><strong class="s"><img src="assets/img/info.png" width="25px"> | Information</strong></a></p>
-            <p class="c"><a class="c" href="assets/about.html" target="BLANK_"><strong class="s"><img src="assets/img/lien.png" width="25px"> | À propos</strong></a></p>
+        <div class="landing-text" width="100%">
+          <h1>| Présentation</h1>
+          <p>
+            Salut ! Moi c'est <strong class="style">Pandow</strong>, je suis streamer sur la platforme twitch depuis 2018. Je suis principalement un streamer de jeux-vidéos, mais aussi de développement web. je fais des lives chills, même si j'ai un caractère de rageux ...
+            <br />
+            <br />
+            Sur ce site tu retrouveras notament, mon
+            <strong class="style"><a href="assets/planning.html">planning</a></strong>
+            , les différents
+            <strong class="style"><a href="assets/clip.html">clips</a></strong>
+            réalisé par ma communauté, ainsi que la rediffusion de mes différents
+            <strong class="style"><a href="assets/live.html">lives</a></strong
+            >. C'est aussi sur ce site que je poste différents articles à propos de moi, de mes lives ou de mon
+            <strong class="style"><a href="assets/setup.html">materiel</a></strong>
+          </p>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      </div>
+      <div class="left-box" class="1" width="100%">
+        <h1>| Information</h1>
+        <p>
+          Mes objectifs principaux sont :
+          <br />
+          <br />
+          - Débuter le <strong class="s">Java Script</strong> <br />
+          - Débuter le <strong class="s">PhP</strong> <br />
+          - Créer un menu de navigation complexe et organisé<br />
+          - Structurer une page en <strong class="s">HTML & CSS</strong> <br />
+          <br />
+          <br />
+          Mes compétences actuelles :
+          <br />
+          <br />
+          - Construire une identité graphique pour un site <br />
+          - Construire les base d'un site en <strong class="s">HTML</strong>
+          <br />
+          - Styliser une page à l'aide de <strong class="s">CSS</strong> <br />
+        </p>
+      </div>
+      <hr class="divider-black" />
+      <div class="left-box" class="1" width="100%">
+        <h1>| À propos</h1>
+        <p>
+          Si vous souhaitez me retrouver sur l'internet connécté, voici quelques petits liens.
+          <br />
+          <br />
+          <br />
+          <br />
+          <a class="twitch" href="https://twitch.tv/lecyber_panda/" target="_BLANK"><img src="assets/img/twitch.png" alt="Logo" width="30px" /> | Twitch</a>
+          <br />
+          <br />
+          <br />
+          <a class="discord" href="https://discord.com/invite/U5aepNgnp7" target="_BLANK"><img src="assets/img/discord.png" alt="Logo" width="30px" /> | Discord</a>
+          <br />
+          <br />
+          <br />
+          <a class="youtube" href="https://www.youtube.com/channel/UCyCFpiB6a89KJULuzqfyLjA" target="_BLANK"><img src="assets/img/youtube.png" alt="Logo" width="30px" /> | Youtube</a>
+        </p>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <p class="c">Copyright <strong class="style-white">Pandow ©</strong> 2020 - 2021</p>
+      <p class="c">|</p>
+      <p class="c">
+        <a class="c" href="assets/other.html" target="_BLANK"
+          ><strong class="s"><img src="assets/img/info.png" alt="Logo" width="25px" /> | Information</strong></a
+        >
+      </p>
+      <p class="c">
+        <a class="c" href="assets/about.html" target="_BLANK"
+          ><strong class="s"><img src="assets/img/lien.png" alt="Logo" width="25px" /> | À propos</strong></a
+        >
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </html>
