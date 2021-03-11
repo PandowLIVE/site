@@ -40,13 +40,12 @@ div#content div h1, h2, p{
 }
 
 div#content{
-    background: rgb(29, 29, 29);
+    background: rgb(46, 46, 46);
     width: auto;
 }
 
 div#content div.article{
     background-color: rgb(0, 0, 0);
-    display: inline-block;
     margin: 30px;
     width: 80%;
     text-align: right;
@@ -137,7 +136,7 @@ strong.style{
 
 strong.style-white{
     transition: 0.3s all;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a.twitch{
@@ -196,10 +195,7 @@ div#content div.lien:hover{
 }
 
 div#content div.black-box{
-    background-image:url(img/bg.png);
-    background-position:center center;
-    background-repeat:no-repeat;
-    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.897);
     margin: 30px;
     width: 80%;
 }
@@ -274,4 +270,11 @@ div#content div.contenu-box{
     background-repeat:no-repeat;
     color: rgb(255, 255, 255);
     font-size: large;
+}
+
+div.bg-site{
+    width: auto;
+    background-image:url(img/bg.png);
+    background-position:center center;
+    background-repeat:no-repeat;
 }
