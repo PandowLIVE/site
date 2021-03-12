@@ -13,19 +13,12 @@ div#content div {
 }
 
 div#content div.left-box {
-  background-color: rgb(0, 0, 0);
-  vertical-align: auto;
-  overflow: hidden;
-  clear: both;
+  background-color: rgba(0, 0, 0, 0.705);
   width: 70%;
   height: 50%;
 }
 
-div.left-box h1 {
-  margin: ;
-}
-
-div#content div.right-box {
+div#content div.right-box{
   color: white;
   background-color: rgb(0, 0, 0);
   vertical-align: top;
