@@ -8,15 +8,21 @@ html {
 }
 
 div#content div {
-  display: inline-block;
   width: auto;
   margin: auto;
 }
 
 div#content div.left-box {
   background-color: rgb(0, 0, 0);
-  margin: 30px;
-  width: 80%;
+  vertical-align: auto;
+  overflow: hidden;
+  clear: both;
+  width: 70%;
+  height: 50%;
+}
+
+div.left-box h1 {
+  margin: ;
 }
 
 div#content div.right-box {
@@ -42,7 +48,9 @@ p {
 }
 
 div#content {
-  background: rgb(46, 46, 46);
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: center;
   width: auto;
 }
 
@@ -55,7 +63,6 @@ div#content div.article {
 
 div#content div.sommaire {
   transition: 1s all;
-  text-align: center;
   width: 35%;
   margin: 30px;
   background-color: black;
@@ -66,7 +73,6 @@ div#content div.sommaire {
 div#content div.sommaire:hover {
   color: rgb(255, 255, 255);
   transition: 1.5s all;
-  text-align: center;
   width: 80%;
   margin: 30px;
   background-color: black;
@@ -79,18 +85,7 @@ p {
   margin: 50px;
 }
 
-div#content div.left-box-right {
-  background-image: url(img/bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 30px;
-  width: 80%;
-  text-align: right;
-  text-decoration: none;
-  transition: 1.5s all;
-}
-
-div#content div:hover {
+div:hover {
   transition: 1s all;
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -107,7 +102,7 @@ footer {
   text-align: center;
 }
 
-a{
+a {
   transition: 0.2s all;
   text-decoration: none;
   color: rgb(209, 181, 22);
@@ -119,28 +114,16 @@ a:hover {
 }
 
 .text-yellow:hover {
-
   color: rgb(255, 223, 42);
 }
 
-.text-yellow{
-
+.text-yellow {
   color: rgb(209, 181, 22);
 }
 
-.style-yellow {
-   transition: 0.3s all;
-   color: rgb(209, 181, 22);
-}
-
 .style-white {
-   transition: 0.3s all;
-   color: rgb(255, 255, 255);
-}
-
-.style-white {
-    transition: 0.3s all;
-    color: rgb(0, 0, 0);
+  transition: 0.3s all;
+  color: rgb(0, 0, 0);
 }
 
 a.twitch {
@@ -181,7 +164,6 @@ a.discord:hover {
 
 div#content div.lien {
   transition: 1s all;
-  text-align: center;
   width: 40%;
   margin: 30px;
   background-color: rgba(0, 0, 0, 0.534);
@@ -191,7 +173,6 @@ div#content div.lien {
 
 div#content div.lien:hover {
   transition: 1.5s all;
-  text-align: center;
   width: 80%;
   margin: 30px;
   background-color: rgb(255, 255, 255);
@@ -238,7 +219,6 @@ div#content div.right-box-info {
 
 div#content div.sommaire-c {
   transition: 0.5s all;
-  text-align: center;
   width: 100%;
   background-image: url(img/bg.png);
   background-position: center center;
@@ -288,22 +268,19 @@ img.logo {
 }
 
 .landing {
-  background-image: url(../img/bg.png);
-  background-size: cover;
-  background-position: center;
-  width: auto;
+  background-color: black;
+  margin: 10px;
 }
 
 .landing-text {
-    transition: 1s all;
-    margin: 30px;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-size: large;
+  transition: 1s all;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-.divider-black{
-    background-color: rgb(0, 0, 0);
-    font-size: large;
-    min-height: 100px;
+.divider-black {
+  background-color: black;
+  font-size: large;
+  min-height: 70px;
 }
